@@ -1,9 +1,3 @@
-provider "google" {
-  credentials = file("terraform-learning-419716-fb277d94a301.json")
-  project     = "terraform-learning-419716"
-  region      = "us-central1"
-}
-
 # Create a Cloud Run service
 resource "google_cloud_run_service" "fastapi_service" {
     name = "fastapi-app"
