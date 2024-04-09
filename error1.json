@@ -1,0 +1,21 @@
+{
+  "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"terraform-learning-1\" on port 8080. The instance was not started.",
+  "insertId": "661441710001aada1d007bc5",
+  "resource": {
+    "type": "cloud_run_revision",
+    "labels": {
+      "location": "us-central1",
+      "revision_name": "fastapi-app-00001-hbr",
+      "project_id": "terraform-learning-419716",
+      "service_name": "fastapi-app",
+      "configuration_name": "fastapi-app"
+    }
+  },
+  "timestamp": "2024-04-08T19:11:45.109274Z",
+  "severity": "ERROR",
+  "labels": {
+    "instanceId": "00a22404dc755484cb5a2f15aacfe1a80b62afcbd1f8fd3d5bc243c4abc7e3e0f421442e013fb2db7138f25eb2304492ea158f184c6accef6dfb0d8d6e33cf7058"
+  },
+  "logName": "projects/terraform-learning-419716/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+  "receiveTimestamp": "2024-04-08T19:11:45.113459766Z"
+}
